@@ -1,0 +1,32 @@
+# Python / local tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+*.log
+
+# Local production artefacts and potentially sensitive client media
+work/
+output/
+outputs/
+renders/
+temp/
+tmp/
+*.mp4
+*.mov
+*.mxf
+*.wav
+*.mp3
+*.aiff
+*.drp
+*.drt
+*.dra
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,24 @@
+name: Validate knowledge base
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  library-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Check manifest, local links and Python syntax
+        run: python tools/validate_library.py --check
+      - name: Run offline tests
+        run: python -m unittest discover -s tests -p 'test_*.py' -v

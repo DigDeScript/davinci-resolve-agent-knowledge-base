@@ -1,0 +1,328 @@
+{
+  "schema_version": "resolve-agent-local-tests/1",
+  "test_date": "2026-11-05",
+  "package_date": "2026-11-06",
+  "resolve_version": "21.2.0.5",
+  "platform": "Windows, Python 3.13",
+  "documentation_sha256": {
+    "DaVinciResolveScript.pyi": "0157d58c67961f7512236227b0692a8cb8986a9643794a35d00ffc30288fb37b",
+    "CHANGELOG.md": "4393755e1a6223b9077a957acfd8e040818a6b841a79bb9400488afe3e24e321"
+  },
+  "insert": [
+    {
+      "source_fps": 29.97,
+      "duration": 300
+    },
+    {
+      "source_fps": 30.0,
+      "duration": 299
+    }
+  ],
+  "trim": {
+    "duration_before": 300,
+    "duration_after": 292
+  },
+  "audio_levels": {
+    "gain_minus3": {
+      "TruePeak": -7.185327529907227,
+      "Integrated": -32.226924896240234
+    },
+    "gain_minus9": {
+      "TruePeak": -13.185327529907227,
+      "Integrated": -38.226924896240234
+    },
+    "standard": "EBU R128"
+  },
+  "video_fade_before_reopen": {
+    "FadeIn": 0.0,
+    "FadeOut": 8.0
+  },
+  "video_fade_after_reopen": {
+    "FadeIn": 0.0,
+    "FadeOut": 0.0
+  },
+  "timeline_persistence_changes": [
+    {
+      "path": "$.timelines[0].tracks[0].items[1].fades.FadeOut",
+      "before": 8.0,
+      "after": 0.0
+    }
+  ],
+  "auto_color": {
+    "before": null,
+    "apply": true,
+    "enabled": true,
+    "disabled": false,
+    "node_count": 1,
+    "first_node_enabled": true,
+    "cdl": {
+      "NodeIndex": 1,
+      "Slope": "1.000000 1.000000 1.000000",
+      "Offset": "0.000000 0.000000 0.000000",
+      "Power": "1.000000 1.000000 1.000000",
+      "Saturation": 1.0
+    }
+  },
+  "auto_color_after_reopen": true,
+  "auto_color_cleared": null,
+  "auto_before_off_identical": true,
+  "auto_image_sha256": {
+    "auto_before.jpg": "96e2d669effb3c7c6faa28dda629170efe36a6c1de13119e2eb6a9b0fd7f4155",
+    "auto_on.jpg": "a040b088ada18b8abda590601850afe382d8b968e7f56aa6765af1b2e87a010f",
+    "auto_off.jpg": "96e2d669effb3c7c6faa28dda629170efe36a6c1de13119e2eb6a9b0fd7f4155"
+  },
+  "playback_fps": {
+    "return": true,
+    "before": "29.97",
+    "after": "25",
+    "restored": true
+  },
+  "audio_clip_effect_count": 29,
+  "ducker_in_clip_list": false,
+  "silence_first": {
+    "returned": true,
+    "before": {
+      "start": 108000,
+      "end": 108149,
+      "tracks": [
+        {
+          "kind": "video",
+          "items": [
+            {
+              "type": "video",
+              "start": 108000.0,
+              "end": 108149.0,
+              "source_in": 0,
+              "source_out": 149
+            }
+          ]
+        },
+        {
+          "kind": "audio",
+          "items": [
+            {
+              "type": "audio",
+              "start": 108000.0,
+              "end": 108149.0,
+              "source_in": 0,
+              "source_out": 149
+            }
+          ]
+        }
+      ]
+    },
+    "after": {
+      "start": 108000,
+      "end": 108000,
+      "tracks": [
+        {
+          "kind": "video",
+          "items": []
+        },
+        {
+          "kind": "audio",
+          "items": []
+        }
+      ]
+    }
+  },
+  "silence_rechecks": [
+    {
+      "options": {
+        "threshold": -40.0,
+        "preHead": 2,
+        "postTail": 2,
+        "minimumToStrip": 10,
+        "crossFadeAudio": false
+      },
+      "levels_before": {
+        "TruePeak": -13.966049194335938,
+        "Integrated": -15.844922065734863
+      },
+      "returned": true,
+      "before": {
+        "start": 108000,
+        "end": 108150,
+        "tracks": [
+          {
+            "kind": "video",
+            "items": [
+              {
+                "type": "video",
+                "start": 108000.0,
+                "end": 108150.0,
+                "source_in": 0,
+                "source_out": 149
+              }
+            ]
+          },
+          {
+            "kind": "audio",
+            "items": [
+              {
+                "type": "audio",
+                "start": 108000.0,
+                "end": 108150.0,
+                "source_in": 0,
+                "source_out": 149
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "start": 108000,
+        "end": 108042,
+        "tracks": [
+          {
+            "kind": "video",
+            "items": [
+              {
+                "type": "video",
+                "start": 108000.0,
+                "end": 108042.0,
+                "source_in": 108,
+                "source_out": 149
+              }
+            ]
+          },
+          {
+            "kind": "audio",
+            "items": [
+              {
+                "type": "audio",
+                "start": 108000.0,
+                "end": 108042.0,
+                "source_in": 108,
+                "source_out": 149
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "options": {
+        "threshold": -60.0,
+        "preHead": 2,
+        "postTail": 2,
+        "minimumToStrip": 10,
+        "crossFadeAudio": false
+      },
+      "levels_before": {
+        "TruePeak": -13.966049194335938,
+        "Integrated": -15.844922065734863
+      },
+      "returned": true,
+      "before": {
+        "start": 108000,
+        "end": 108150,
+        "tracks": [
+          {
+            "kind": "video",
+            "items": [
+              {
+                "type": "video",
+                "start": 108000.0,
+                "end": 108150.0,
+                "source_in": 0,
+                "source_out": 149
+              }
+            ]
+          },
+          {
+            "kind": "audio",
+            "items": [
+              {
+                "type": "audio",
+                "start": 108000.0,
+                "end": 108150.0,
+                "source_in": 0,
+                "source_out": 149
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "start": 108000,
+        "end": 108042,
+        "tracks": [
+          {
+            "kind": "video",
+            "items": [
+              {
+                "type": "video",
+                "start": 108000.0,
+                "end": 108042.0,
+                "source_in": 108,
+                "source_out": 149
+              }
+            ]
+          },
+          {
+            "kind": "audio",
+            "items": [
+              {
+                "type": "audio",
+                "start": 108000.0,
+                "end": 108042.0,
+                "source_in": 108,
+                "source_out": 149
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "production_comparison_status": [
+    "equal",
+    "equal"
+  ],
+  "grid": {
+    "version": "21.2.0.5",
+    "grid": {
+      "success": true,
+      "width": 1600,
+      "height": 916,
+      "columns": 2,
+      "rows": 2,
+      "cellWidth": 782,
+      "cellHeight": 440
+    },
+    "roi": {
+      "success": true,
+      "width": 640,
+      "height": 540
+    },
+    "playhead_before": "01:00:00:00",
+    "playhead_after": "01:00:00:00",
+    "frames": [
+      {
+        "frameOffset": 0,
+        "label": "Timeline offset 0"
+      },
+      {
+        "frameOffset": 1028,
+        "label": "Cut 1 BEFORE 1028"
+      },
+      {
+        "frameOffset": 1029,
+        "label": "Cut 1 AFTER 1029"
+      },
+      {
+        "frameOffset": 25268,
+        "label": "Final frame"
+      }
+    ]
+  },
+  "new_tool_tests": {
+    "offline_passed": 7,
+    "timeline_frames": 4,
+    "source_frames": 3,
+    "all_cut_frames": 78,
+    "all_cut_sheets": 13
+  },
+  "perceptual_scope": "Selected exported stills only; no motion/listening test."
+}
