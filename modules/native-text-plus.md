@@ -1,5 +1,11 @@
 # Native Text+ titles, sizing, Shading, editable captions
 
+## Font-family and style preflight
+
+**Locally tested, limited to the proposing agent's Studio 21.2.0.6 trial; independent review pending:** a TextPlus using `Consolas / Medium` returned that style string on read-back but made its downstream Merge render black. `Consolas / Regular` restored the image. `ExportFrame(success=True)` did not distinguish the failed picture. See the [reproduction and limits](../evidence/text-reveal-promo-21.2.0.6.md).
+
+Inspect `fusion.FontManager.GetFontList()` before batch authoring. Check the exact style under the selected family; a style available for Montserrat need not exist for Consolas. Select an available style deliberately and render one representative composite before duplicating it. A setter/read-back confirms stored values, not a usable font resource.
+
 > **21.2 compatibility:** this module preserves earlier recipes and evidence. For current signatures, newly tested operations and restrictions, read [Resolve 21.2](resolve-21.2.md). Older `GetProperty`/`SetProperty` and `GetSetting`/`SetSetting` examples require the current dictionary forms.
 
 
