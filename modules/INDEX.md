@@ -12,7 +12,7 @@ Use this index **after** identifying what the current task requires. Read only r
 | Plan content-led or transcript-led cuts | [Transcript-driven editing](transcript-driven-editing.md), [editing standards](editing-standards.md) | [Word timing, missing frames, inappropriate B-roll](known-traps.md) |
 | Detect pauses, estimate audio levels, build non-destructive cut plans | [Audio analysis/edit plans](audio-analysis-and-edit-plans.md), [audio and color](audio-and-color.md) | [Silence deletion limits](resolve-21.2.md), [known traps](known-traps.md) |
 | Create native editable titles and subtitles | [Native Text+](native-text-plus.md), [Word Highlight](word-highlight.md) | [Shading/Fusion/DRT traps](known-traps.md) |
-| Animate Fusion tools, splines or macros | [Fusion and animation](fusion-and-animation.md) | [Graph and keyframe traps](known-traps.md) |
+| Animate Fusion tools, splines or macros | [Fusion and animation](fusion-and-animation.md), [rotating gradient background](rotating-gradient-background.md) | [Graph and keyframe traps](known-traps.md) |
 | Isolate foregrounds, composite masks or depth effects | [Masking and depth](masking-and-depth.md) | [Matte/DepthMap/Magic Mask traps](known-traps.md) |
 | Balance audio/color or understand limitations | [Audio and color](audio-and-color.md), [Resolve 21.2](resolve-21.2.md) | [Ducker and native API limits](known-traps.md) |
 | Design better audience engagement / promotional edits | [Audience engagement](audience-engagement.md), [editing standards](editing-standards.md) | Client brief; [editorial traps](known-traps.md) |
