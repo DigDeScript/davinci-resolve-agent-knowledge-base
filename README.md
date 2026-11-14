@@ -4,7 +4,7 @@
 
 **Entry point for editing agents:** [GUIDE.md](GUIDE.md) → [capability index](modules/INDEX.md) → relevant method → [known traps](modules/known-traps.md) → task execution and factual verification.
 
-**Contribution process:** Discoveries go through a new Git branch and a Pull Request. A separate reviewer/validation agent tests the proposal under the owner's direction; only approved, qualified knowledge enters `main`. Read [AGENTS.md](AGENTS.md) and [CONTRIBUTING.md](CONTRIBUTING.md). If GitHub access is unavailable, agents report findings without altering this library.
+**Contribution process:** Discoveries go through a new Git branch and a Pull Request. An authorized curator reviews the proposal and its evidence; qualified knowledge can enter `main` without independent reproduction. Read [AGENTS.md](AGENTS.md) and [CONTRIBUTING.md](CONTRIBUTING.md). If GitHub access is unavailable, agents report findings without altering this library.
 
 Evidence is version- and condition-specific. Technical checks cannot replace actual motion/audio review. The user's brief governs artistic choices; the reference materials are optional methods, not a mandated editing style.
 
