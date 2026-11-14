@@ -1,5 +1,15 @@
 # Known pitfalls and safer alternatives
 
+## Proposed additions from a title-promo edit
+
+These are bounded local observations, awaiting independent review; see [reproduction evidence](../evidence/text-reveal-promo-21.2.0.6.md).
+
+| Action / assumption | Observed problem | Safer candidate |
+|---|---|---|
+| Reuse a font style name across different families | Consolas with unavailable Medium style blackened a downstream composite despite successful frame export | Validate family/style together with FontManager; inspect one representative composite before batch generation |
+| Assume every custom group exposes Python `.Output` | The tested group returned None even though it published an image output | Inspect `FindMainOutput(1)` and the group's actual output layout; verify connection and picture |
+| Write temporary compiler output to `/tmp` on every OS | Restricted Windows run failed with WinError 5 before syntax could be checked | Compile source bytes in memory for a syntax-only check; no temporary files are needed |
+
 > **21.2 compatibility:** this module preserves earlier recipes and evidence. For current signatures, newly tested operations and restrictions, read [Resolve 21.2](resolve-21.2.md). Older `GetProperty`/`SetProperty` and `GetSetting`/`SetSetting` examples require the current dictionary forms.
 
 
