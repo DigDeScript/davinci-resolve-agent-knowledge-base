@@ -105,7 +105,24 @@ Useful editorial questions rather than a mandatory scorecard:
 
 If available, retention, completion, comments or conversion data can inform later revisions. They are **signals**, not guaranteed indicators of cause; do not claim a technique worked without actual comparable evidence. Reports should distinguish editorial judgement from measured audience response.
 
-## J. Related references
+## J. Product-template promos: make the acquisition path understandable
+
+**Editorial proposal, not a measured conversion result.** For a plugin, title or downloadable effect, an attractive demonstration also needs a comprehensible offer. A new viewer should be able to answer:
+
+1. What is the product, and which application is it for?
+2. What does the effect do? Show the actual effect while explaining relevant controls.
+3. What is the supplied offer, including any free-account requirement?
+4. Where is the link, and what happens after opening it?
+
+A possible order is **host application + visible result → customization proof → specific acquisition steps**. For a user-confirmed free download requiring registration: `Open the link with this video → Sign up on [destination] → Download for free`. Use only the supplied destination and verified or user-confirmed terms. A future/unreachable landing page must not be described as already live or tested.
+
+Keep the host name and acquisition instructions readable while the decorative reveal moves. Allow enough fully readable time after the animation for the final action; a six-second end card is one creative choice, not a universal rule. Check the exported image at phone scale with sound off and reserve space for possible platform overlays. Reflow each aspect ratio instead of shrinking sentences into microtext.
+
+The clickable destination belongs in the platform's supported accompanying text/link placement. A long post URL is usually poor on-screen copy; a short creator identity plus a truthful instruction can be clearer. Do not claim a caption link is clickable on every platform. Supply platform-specific post text when useful and verify publication placement before launch.
+
+Generic `Discover the effect` copy may serve awareness but omit the application, offer or next action needed for acquisition. This distinction arose in a [title-promo revision](../evidence/text-reveal-promo-21.2.0.6.md); no engagement lift was measured.
+
+## K. Related references
 
 - [Optional editing workflow](../workflows/editing.md) — a possible sequence when useful, not an instruction to use every phase.
 - [Editing standards](editing-standards.md) — editable output, picture/sound integrity and restrained overlays.

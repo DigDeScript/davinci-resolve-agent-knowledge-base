@@ -1,3 +1,11 @@
+# Proposed: title-promo lessons and portable validation (2026-11-14)
+
+- Add bounded Studio 21.2.0.6 font/style and published-group-output observations, reproduction steps and independent-review limits.
+- Extend promotional guidance with host-app identification, user-confirmed offer, registration/download steps and readable end-card timing.
+- Check Python syntax in memory, removing the offline validator's hard-coded `/tmp` bytecode writes.
+
+---
+
 # Resolve Agent 1.9
 
 Released 2026-11-12. **Knowledge management and GitHub workflow update** of v1.8; no new live Resolve integration validation. Latest recorded Resolve test build remains 21.2.0.5.

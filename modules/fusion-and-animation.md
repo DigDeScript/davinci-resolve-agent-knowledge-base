@@ -1,5 +1,9 @@
 # Fusion graphs, keyframes, expressions, layout
 
+## Image output lookup on custom groups
+
+**Locally tested on one custom GroupOperator in Studio 21.2.0.6; independent review pending:** `group.Output` was `None`, while `group.FindMainOutput(1)` provided its published image output. Use that handle only after confirming the group's output layout, then read back the connection and inspect a rendered frame. The connected source may be reported as the group's internal result tool. See [conditions and limits](../evidence/text-reveal-promo-21.2.0.6.md).
+
 > **21.2 compatibility:** this module preserves earlier recipes and evidence. For current signatures, newly tested operations and restrictions, read [Resolve 21.2](resolve-21.2.md). Older `GetProperty`/`SetProperty` and `GetSetting`/`SetSetting` examples require the current dictionary forms.
 
 
