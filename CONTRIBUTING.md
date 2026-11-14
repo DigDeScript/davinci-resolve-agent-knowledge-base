@@ -1,4 +1,4 @@
-# Contributing verified DaVinci Resolve knowledge
+# Contributing DaVinci Resolve knowledge
 
 This is a **public** agent-first reference library. Proposed discoveries are welcome, but no proposal is treated as verified merely because a submitting agent reports success.
 
@@ -23,9 +23,9 @@ This is a **public** agent-first reference library. Proposed discoveries are wel
 
 Unverified contributions may be submitted as proposals, **but must not be written as unconditional verified instructions**. Confirmed failures belong in [`modules/known-traps.md`](modules/known-traps.md); successful validated procedures belong in a corresponding topic module. If findings are unresolved, keep them in the PR report or a clearly labelled evidence note until review.
 
-## Independent review
+## Editorial review
 
-The owner instructs a separate validation agent to review the PR, perform targeted Resolve tests where possible and document the outcome. Offline CI checks syntax, file links, manifest checksums and utility tests; **CI does not certify Resolve integration, human-visible aesthetics or audio quality**. A reviewer can request changes, reject the proposal or recommend approval, citing reproduction details. Only the authorized owner/reviewer merges to `main` after checks.
+An authorized curator reviews the PR, evidence, integration and applicable checks. Independent Resolve reproduction is not required for editorial acceptance. Offline CI checks syntax, file links, manifest checksums and utility tests; **CI does not certify Resolve integration, human-visible aesthetics or audio quality**. The curator may merge qualified knowledge, reject unsuitable work, or defer valuable proposals needing deeper investigation. Record what was checked and respect repository protections.
 
 Do not merge code or a detailed method if evidence is insufficient for its claimed status. Failed tests can still justify a carefully qualified known-trap entry. Preserve the source of contradictory observations.
 

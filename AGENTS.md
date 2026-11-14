@@ -13,9 +13,9 @@ This public repository is an **agent-consumable knowledge base** for DaVinci Res
 
 Ordinary editing-task results do **not** require a PR when no reusable lesson was learned. The task's actual editing deliverable remains the primary goal.
 
-## Validation agent: separate reviewer
+## Authorized curator
 
-Operate only on explicit owner/reviewer instruction. Inspect a PR's scope and evidence; reproduce the claim in an appropriate Resolve environment where feasible; distinguish direct reproduction, offline validation, inability to test and contradictory evidence. Explain what was checked and what was not. Request changes or reject unsupported claims; approve only at the evidence level actually established. Merge to `main` **only with explicit repository-owner authorization** and after required repository checks. Avoid making unrelated edits while reviewing another agent's PR.
+Inspect the PR scope, evidence, affected content and applicable checks. Distinguish author observations from independent reproduction, offline validation and contradictory evidence. An authorized curator may merge sufficiently qualified useful knowledge, reject unsuitable proposals, or defer valuable work requiring deeper investigation. Independent Resolve reproduction is not a routine acceptance requirement. Respect repository protections and avoid unrelated edits.
 
 ## Evidence discipline
 

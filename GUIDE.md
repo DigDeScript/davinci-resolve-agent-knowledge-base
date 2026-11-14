@@ -6,7 +6,7 @@
 
 This is a **searchable reference library**, not a mandatory editing workflow. It helps AI editing agents find existing DaVinci Resolve methods, reusable tools, known failure modes and real-world test evidence *before* spending time rediscovering them. The user's task determines the goals, artistic choices, deliverables and permitted operations. Advertising/editorial techniques are options, not creative requirements.
 
-The public GitHub repository uses **`main` for reviewed knowledge**. Its content may still have version-specific limitations; a merged entry means its evidence was reviewed, **not** that it works everywhere. New discoveries are proposed on separate branches via **Pull Requests (PRs)**. A separate validation agent/reviewer, acting under the repository owner's direction, checks results and approves or rejects the PR. **Editing agents must not write directly to `main` or merge their own proposals.** See [AGENTS.md](AGENTS.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
+The public GitHub repository uses **`main` for reviewed knowledge**. Its content may still have version-specific limitations; a merged entry means its evidence was reviewed, **not** that it works everywhere. New discoveries are proposed on separate branches via **Pull Requests (PRs)**. An authorized curator evaluates the proposal and its evidence and accepts, rejects, or defers it. **Editing agents must not write directly to `main` or merge their own proposals.** See [AGENTS.md](AGENTS.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Use the library for any task
 
@@ -45,11 +45,11 @@ Known current caveats: prefer current `GetProperties`/`SetProperties` and `GetSe
 
 ## Contribution and validation loop
 
-**Editing agent → task result and evidence → branch + PR → separately instructed validation agent → approve and merge, or request changes/reject.**
+**Editing agent → task result and evidence → branch + PR → authorized curator → merge, reject, or defer.**
 
 - A proposal should provide a reproducible concise recipe or **action → failure → safer alternative** entry, with source conditions, actual observed result, version and test evidence.
 - The proposer may include successful methods, confirmed-looking failures or unresolved observations. Clearly distinguish these; the proposing agent **does not** self-certify a new claim as independently verified.
-- A validation agent checks the PR in a separate suitable Resolve environment, records the degree of reproduction, and updates or requests changes. **Only the authorized reviewer/owner merges to `main`.**
+- A curator reviews scope, evidence and integrity checks. Independent Resolve reproduction is not required for editorial acceptance; record what was and was not checked. Required repository protections still apply.
 - If the agent cannot write files or create a PR, return the proposal text and evidence in its final report. GitHub access is optional for reading this library.
 - Never commit proprietary client media, credentials, confidential project data or arbitrary rendered assets to this **public** repository. Use anonymized/minimal evidence; seek approval before publishing sample media.
 
