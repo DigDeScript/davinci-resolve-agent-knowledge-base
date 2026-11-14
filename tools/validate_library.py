@@ -4,7 +4,6 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
-import py_compile
 import re
 from pathlib import Path
 from urllib.parse import unquote
@@ -84,7 +83,7 @@ def main() -> int:
         if any(part in SKIP_DIRS for part in path.relative_to(ROOT).parts):
             continue
         try:
-            py_compile.compile(str(path), cfile=str(Path("/tmp") / (path.name + ".pyc")), doraise=True)
+            compile(path.read_bytes(), str(path), "exec")
         except Exception as exc:
             problems.append(f"Python syntax error {path.relative_to(ROOT)}: {exc}")
     if problems:
