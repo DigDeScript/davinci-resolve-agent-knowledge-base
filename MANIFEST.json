@@ -33,8 +33,8 @@
       "sha256": "71c6670f7e41afefc202a744615681a9bd8488737747e97fa299cbdeed451563"
     },
     "CHANGELOG.md": {
-      "bytes": 5046,
-      "sha256": "1995b1f9ea9ade7f2acba05a0025089d64e0b3f2c5c2f049bebc1fba0880089d"
+      "bytes": 5106,
+      "sha256": "dda5c401e788d183955de7d6219aa6183598cf44433732360de6505502881f02"
     },
     "CONTRIBUTING.md": {
       "bytes": 3337,
@@ -89,8 +89,8 @@
       "sha256": "a5706f48f44582cacdef005f441e6ccd6f43916378d0e84e7d76c657bdd1729a"
     },
     "modules/known-traps.md": {
-      "bytes": 12456,
-      "sha256": "f56fd9fcfa711b62fa1d7923ab94ebeeef730e48001de78d25a996e595a63b7f"
+      "bytes": 12547,
+      "sha256": "1377c2db3f52731ad78ce8b06e3d38509f79fff84b4b33f68f93968bbc5dfc26"
     },
     "modules/masking-and-depth.md": {
       "bytes": 4902,
